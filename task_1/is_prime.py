@@ -1,8 +1,8 @@
+from get_divisors import get_divisors
+
+
 def is_prime(numb):
-    for i in range(2, numb - 1):
-        if numb % i == 0:
-            return False
-    return True
+    return len(get_divisors(numb)) < 3
 
 
 print('Checking number for a prime')
