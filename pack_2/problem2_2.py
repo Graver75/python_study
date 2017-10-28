@@ -12,4 +12,3 @@ try:
     print(is_perfect(int(input('Enter number: '))))
 except Exception:
     print('Number should be natural!')
-from "../pack_1/problem_1_2" import get_digitals
