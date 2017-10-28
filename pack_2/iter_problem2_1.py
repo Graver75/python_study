@@ -4,6 +4,7 @@ def non_recursive_factor(n):
         result *= i
     return result
 
-print('Iterative factorial')
-print('Your number is: ',non_recursive_factor(int(input("Enter number: "))))
+if __name__ == "__main__":
+    print('Iterative factorial')
+    print('Your number is: ', non_recursive_factor(int(input("Enter number: "))))
 
