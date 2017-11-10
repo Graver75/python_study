@@ -70,6 +70,7 @@ def explicit_float_to_int(x):
 
 
 print('Calculating polynomial derivations')
+print('Polynomial like 1*x^5+1*x^4-1*x+8')
 z = input('Enter polynomial: ')
 y = Polynomial(z)
 print(y.get_derivation())
