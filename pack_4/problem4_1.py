@@ -45,6 +45,7 @@ def append_trade(time, exchange):
 
 
 def output():
+    print('Trades parsing from file TRD.csv')
     print('Once going through the table, once checking for the dictionaries')
     print('Complexity: O(n)')
     for a in max_dict:
